@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        display: flex;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-box">
+        <button><i class="bx bxs-lock"></i></button>
+        <input
+          type="password"
+          placeholder="Enter  Password"
+          id="psw"
+          required
+        />
+        <i class="bx bxs-hide show"></i>
+      </div>
+      <div class="error=box"></div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
